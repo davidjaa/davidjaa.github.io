@@ -1,5 +1,18 @@
-.header{
+.form {
     display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.name {
+    flex: 1 0 10rem;
+}
+
+.password{
+    flex: 1 0 10rem;
+}
+
+.button {
+    flex: 1 0 5rem;
     background-color: bisque;
-    align-items: center;
 }
